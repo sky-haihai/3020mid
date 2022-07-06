@@ -1,0 +1,405 @@
+body {
+  background-color: rgb(39, 39, 39);
+  color: coral;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 35px;
+}
+
+p {
+  color: rgb(208, 208, 208);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+th {
+  text-align: left;
+  padding-right: 100px;
+  padding-bottom: 30px;
+}
+
+td {
+  color: rgb(208, 208, 208);
+  font-size: 16px;
+  font-weight: 100;
+}
+
+::placeholder {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.general-div {
+  display: flex;
+  background-color: rgb(50, 50, 50);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px 0 0;
+}
+
+.header>h1 {
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 300;
+  color: white;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.nav>a {
+  font-size: 16px;
+  font-weight: 150;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.bg-about {
+  width: 100%;
+  background-color: rgb(50, 50, 50);
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(50, 50, 50);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.about-info {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-intro {
+  padding: 10px 0;
+}
+
+.about h1 {
+  color: coral;
+}
+
+.about-table {
+  padding: 30px 0;
+}
+
+.resume-btn {
+  width: 200px;
+  padding: 20px 0;
+  background-color: coral;
+  border: transparent;
+  transition: 300ms;
+  border-radius: 3px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.resume-btn:hover {
+  background-color: lightsalmon;
+}
+
+.resume-btn:active {
+  background-color: red;
+}
+
+.avator-img {
+  flex: 3;
+}
+
+.slogan {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+.bg-slogan {
+  width: 100%;
+  padding: 35px 0;
+}
+
+.bio {
+  flex-direction: column;
+}
+
+.bio h2 {
+  font-size: 22px;
+}
+
+.bio-skills {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.bio-skills-skill {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.bg-bio {
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-bio-add {
+  background-color: coral;
+}
+
+.bio-add {
+  padding: 60px 0;
+  background-color: coral;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+.bio-add-skill {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.bio-add-skill>h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white
+}
+
+.bio-add-skill>h2 {
+  color: black;
+  font-weight: 400;
+}
+
+.bio-add-skill>p {
+  color: rgb(23, 23, 23)
+}
+
+.awards {
+  flex-direction: column;
+  gap: 30px;
+  font-size: 18px;
+}
+
+.bg-awards {
+  background-color: rgb(50, 50, 50);
+}
+
+.games {
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgb(39, 39, 39);
+}
+
+.game-list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.individual-game {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+.individual-game>h2 {
+  font-size: 20px;
+}
+
+.individual-game>img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.bg-games {
+  background-color: rgb(39, 39, 39);
+}
+
+.coding {
+  flex-direction: column;
+}
+
+.coding-projects {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.coding-project {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0;
+  max-width: 500px;
+}
+
+.coding-project>a {
+  font-size: 25px;
+  color: coral;
+  text-decoration: underline;
+}
+
+.bg-coding {
+  background-color: rgb(50, 50, 50);
+}
+
+.contact-info {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.bg-contact-info {
+  background-color: rgb(50, 50, 50);
+}
+
+.bg-contact-form {
+  background-color: rgb(39, 39, 39);
+}
+
+.contact-form {
+  background-color: white;
+  border-radius: 20px;
+  flex-direction: column;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.contact-form input {
+  height: 1.5rem;
+  border: transparent;
+  border-radius: 4px;
+  background-color: coral;
+}
+
+.contact-form input:focus {
+  border: transparent;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  border: transparent;
+  border-radius: 4px;
+  background-color: coral;
+}
+
+.contact-form textarea {
+  border: transparent;
+  border-radius: 4px;
+}
+
+.contact-form-message-box {
+  height: 300px;
+  text-align: start;
+}
+
+.contact-form-name-email {
+  display: flex;
+  justify-content: flex-start;
+  gap: 4px;
+}
+
+.contact-form-name-email>div {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2px;
+  align-items: center;
+}
+
+.contact-form-submit-btn {
+  margin: 0 auto;
+  width: 150px;
+  padding: 20px 0;
+  background-color: coral;
+  border: transparent;
+  transition: 300ms;
+  border-radius: 4px;
+  color: white
+}
+
+.contact-form-submit-btn:hover {
+  background-color: coral;
+}
+
+.contact-form-submit-btn:active {
+  background-color: red;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    align-items: stretch;
+  }
+
+  .nav {
+    gap: 0;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+
+  .nav>a {
+    padding: 10px 10px 10px 30px;
+    border-top: transparent;
+    border-color: coral;
+  }
+
+  .nav>a:last-child {
+    border-bottom: transparent;
+    border-color: coral;
+  }
+
+  .about {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .avator-img {
+    margin: 0 auto;
+  }
+
+  .bio-skills {
+    flex-direction: column;
+  }
+}
